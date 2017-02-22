@@ -50,3 +50,47 @@ ul.header_menu
     background: #A84646;
     color: #fff;
 }
+
+#menu_responsive
+{
+    display: none;
+    padding: 10px 10px;
+    border-bottom: 1px solid #999;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 500px) 
+{
+    .respove_hide
+    {
+        display: none;
+    }
+
+    .respove_show
+    {
+        display: block !important;
+    }
+
+    .container
+    {
+        width: 100%;
+    }
+
+    .header_menu
+    {
+        display: none;
+    }
+
+    .header_menu > li
+    {
+        display: block;
+    }
+
+    #menu_responsive
+    {
+        display: block;
+    }
+}
+
+/* End */
