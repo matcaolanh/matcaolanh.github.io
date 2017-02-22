@@ -82,6 +82,26 @@ ul.header_menu
     width: 100%;
 }
 
+[class^="width-"]
+{
+    display: inline-block;
+}
+
+.width-30
+{
+    width: 30%;
+}
+
+.width-35
+{
+    width: 35%;
+}
+
+.width-40
+{
+    width: 40%;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 500px) 
@@ -119,6 +139,11 @@ ul.header_menu
     #menu_responsive
     {
         display: block;
+    }
+
+    [class^="width-"]
+    {
+        width: 100%;
     }
 }
 
