@@ -58,10 +58,39 @@ ul.header_menu
     border-bottom: 1px solid #999;
 }
 
+.fb-button
+{
+    color: #fff;
+    background: #3B579D;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.content
+{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+    background: #fff;
+}
+
+.img_button > img
+{
+    width: 100%;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 500px) 
 {
+    .content
+    {
+        width: 100%;
+    }
+
     .respove_hide
     {
         display: none;
